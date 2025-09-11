@@ -28,3 +28,4 @@
 /home/rel/Documents/Development/CSHARP/WebApplication/obj/Debug/net8.0/WebApplication.pdb
 /home/rel/Documents/Development/CSHARP/WebApplication/obj/Debug/net8.0/WebApplication.genruntimeconfig.cache
 /home/rel/Documents/Development/CSHARP/WebApplication/obj/Debug/net8.0/ref/WebApplication.dll
+/home/rel/Documents/Development/CSHARP/WebApplication/obj/Debug/net8.0/WebApplication.sourcelink.json
