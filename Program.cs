@@ -4,6 +4,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        // ! This is a comments
         string nama = "Fahrel";
         int umur = 20;
         bool mhs = true;
