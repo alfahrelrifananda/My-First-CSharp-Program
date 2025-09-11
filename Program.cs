@@ -11,7 +11,7 @@ public class Program
             This is a comments
             */
         string nama = "Fahrel";
-        int umur = 20;
+        int umur = 90;
         bool mhs = true;
         double money = 1000.50;
         char initial = 'F';
