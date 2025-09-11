@@ -4,6 +4,7 @@ bool mhs = true;
 double money = 1000.50;
 char initial = 'F';
 
+System.Console.WriteLine("Hallo, Welt!");
 System.Console.WriteLine("Ich heiße " + nama);
 System.Console.WriteLine("Mein Anfangsbuchstabe ist " + initial);
 System.Console.WriteLine("Ich bin " + umur + " Jahre alt");
