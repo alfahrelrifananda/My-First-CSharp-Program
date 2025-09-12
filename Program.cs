@@ -1,16 +1,16 @@
-System.Console.WriteLine("Masukkan Nama : ");
+System.Console.Write("Masukkan Nama : ");
 string nama = Console.ReadLine();
 
-System.Console.WriteLine("Masukkan Umur : ");
+System.Console.Write("Masukkan Umur : ");
 int umur = Convert.ToInt32(Console.ReadLine());
 
-System.Console.WriteLine("Masukkan Jenis Kelamin (L/P) : ");
+System.Console.Write("Masukkan Jenis Kelamin (L/P) : ");
 char jenisKelamin = Convert.ToChar(Console.ReadLine());
 
-System.Console.WriteLine("Apakah Sudah Lulus Sekolah? (True/False) : ");
+System.Console.Write("Apakah Sudah Lulus Sekolah? (True/False) : ");
 bool isLulus = Convert.ToBoolean(Console.ReadLine());
 
-System.Console.WriteLine("Kota Asal : ");
+System.Console.Write("Kota Asal : ");
 string kotaAsal = Console.ReadLine();
 
 System.Console.WriteLine("===============================================");
