@@ -18,16 +18,6 @@ public class Program
         System.Console.Write("Kota Asal : ");
         string kotaAsal = Console.ReadLine();
 
-        if (kotaAsal == "Solo")
-        {
-            System.Console.WriteLine("Wah, kamu dari kota yang sama denganku!");
-        }
-
-        if (isLulus == true)
-        {
-            System.Console.WriteLine("Selamat ya, semoga sukses di masa depan!");
-        }
-
         System.Console.WriteLine("===============================================");
         System.Console.WriteLine("DATA PENGGUNA");
         System.Console.WriteLine("-----------------------------------------------");
