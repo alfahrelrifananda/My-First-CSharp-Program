@@ -3,6 +3,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        // ! Praktikum 1
+        // * Variabel
+        /*
         System.Console.Write("Masukkan Nama : ");
         string nama = Console.ReadLine();
 
@@ -27,5 +30,16 @@ public class Program
         System.Console.WriteLine("Lulus Sekolah  : " + isLulus);
         System.Console.WriteLine("Kota Asal      : " + kotaAsal);
         System.Console.WriteLine("===============================================");
+        */
+
+        // ! Materi Praktikum 2
+        // * Operator Aritmatika
+        int a = 10, b = 3;
+
+        System.Console.WriteLine(a + b); // Penjumlahan
+        System.Console.WriteLine(a - b); // Pengurangan
+        System.Console.WriteLine(a * b); // Perkalian
+        System.Console.WriteLine(a / b); // Pembagian
+        System.Console.WriteLine(a % b); // Modulus              
     }
 }
