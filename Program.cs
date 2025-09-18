@@ -78,7 +78,7 @@ public class Program
         System.Console.WriteLine(x);
         */
 
-        // * Operator Increament dan Dicremeant
+        // * Operator Increament dan Decremeant
         int x = 5;
         x++; // x = x + 1
         x--; // x = x - 1
