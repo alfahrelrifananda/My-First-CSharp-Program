@@ -33,7 +33,7 @@ public class Program
         System.Console.WriteLine("===============================================");
         */
 
-        // ! Materi Praktikum 2
+        // ? Materi 2
         // * Operator Aritmatika
         /*
         int a = 10, b = 3;
@@ -77,5 +77,11 @@ public class Program
         x %= 3; // x = x % 3
         System.Console.WriteLine(x);
         */
+
+        // * Operator Increament dan Dicremeant
+        int x = 5;
+        x++; // x = x + 1
+        x--; // x = x - 1
+        System.Console.WriteLine(x);
     }
 }
