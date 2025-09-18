@@ -79,9 +79,11 @@ public class Program
         */
 
         // * Operator Increament dan Decremeant
+        /*
         int x = 5;
         x++; // x = x + 1
         x--; // x = x - 1
         System.Console.WriteLine(x);
+        */
     }
 }
