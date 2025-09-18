@@ -1,4 +1,5 @@
 using System;
+
 public class Program
 {
     public static void Main(string[] args)
@@ -34,12 +35,23 @@ public class Program
 
         // ! Materi Praktikum 2
         // * Operator Aritmatika
+        /*
         int a = 10, b = 3;
 
         System.Console.WriteLine(a + b); // Penjumlahan
         System.Console.WriteLine(a - b); // Pengurangan
         System.Console.WriteLine(a * b); // Perkalian
         System.Console.WriteLine(a / b); // Pembagian
-        System.Console.WriteLine(a % b); // Modulus              
+        System.Console.WriteLine(a % b); // Modulus
+        */
+        // * Operator Perbandingan
+        int x = 5, y = 10;
+
+        System.Console.WriteLine(x < y); // Kurang Dari = True
+        System.Console.WriteLine(x == y); // Sama Dengan = False
+        System.Console.WriteLine(x != y); // Tidak Sama Dengan = True
+        System.Console.WriteLine(x >= 5); // Lebih Dari Sama Dengan = True
+
+        // * Operator Logika
     }
 }
