@@ -54,15 +54,28 @@ public class Program
         System.Console.WriteLine(x >= 5); // Lebih Dari Sama Dengan = True
         */
         // * Operator Logika
+        /*
         bool a = true, b = false;
 
+        System.Console.WriteLine(a && b); // AND (True jika keduanya True) = False
         System.Console.WriteLine(a || b); // OR (True jika salah satu True) = True
         System.Console.WriteLine(!a); // NOT (Kebalikan) = False
         System.Console.WriteLine(!b); // NOT (Kebalikan) = True
 
-        // Contoh komnbinasi
         int x = 5, y = 10, z = 3;
         System.Console.WriteLine((x < y) && (y > z)); // AND (True jika keduanya True)
         System.Console.WriteLine((x == y) || (z < x)); // OR (True jika salah satu True)
+        */
+
+        // * Operator Penugasan
+        /*
+        int x = 10;
+        x += 5; // x = x + 5
+        x -= 3; // x = x - 3
+        x *= 2; // x = x * 2
+        x /= 4; // x = x / 4
+        x %= 3; // x = x % 3
+        System.Console.WriteLine(x);
+        */
     }
 }
