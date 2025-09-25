@@ -88,6 +88,7 @@ public class Program
 
         // ? Materi 3
         // * Percabangan If, Else If, Else
+        /*
         int umur = 18;
 
         if (umur >= 17)
@@ -98,5 +99,25 @@ public class Program
         {
             System.Console.WriteLine("Anda belum boleh membuat KTP");
         }
+        */
+        // * Percabangan bertingkat
+        int nilai = 75;
+
+        if (nilai >= 85)
+        {
+            System.Console.WriteLine("Nilai A");
+        }
+        else if (nilai >= 70)
+        {
+            System.Console.WriteLine("Nilai B");
+        }
+        else if (nilai >= 55)
+        {
+            System.Console.WriteLine("Nilai C");
+        }
+        else
+        {
+            System.Console.WriteLine("Nilai D");
+        }       
     }
 }
