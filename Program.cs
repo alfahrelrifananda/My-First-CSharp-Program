@@ -121,10 +121,9 @@ public class Program
             System.Console.WriteLine("Nilai D");
         }
         */
-
         // * Switch-case
+        /*
         int hari = 3;
-
         switch (hari)
         {
             case 1:
@@ -147,6 +146,27 @@ public class Program
                 break;
             case 7:
                 System.Console.WriteLine("Minggu");
+                break;
+            default:
+                System.Console.WriteLine("Invalid");
+                break;
+        }
+        */
+
+        System.Console.Write("Masukkan nama buah : ");
+        string buah = System.Console.ReadLine().ToLower();
+
+        switch (buah)
+        {
+            case "mangga":
+                System.Console.WriteLine("Buah warna oranye");
+                break;
+            case "pisang":
+                System.Console.WriteLine("Buah warna kuning");
+                break;
+            case "apel":
+            case "strawberry":
+                System.Console.WriteLine("Buah warna merah");
                 break;
             default:
                 System.Console.WriteLine("Invalid");
