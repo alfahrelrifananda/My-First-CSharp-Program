@@ -101,6 +101,7 @@ public class Program
         }
         */
         // * Percabangan bertingkat
+        /*
         int nilai = 75;
 
         if (nilai >= 85)
@@ -118,6 +119,38 @@ public class Program
         else
         {
             System.Console.WriteLine("Nilai D");
-        }       
+        }
+        */
+
+        // * Switch-case
+        int hari = 3;
+
+        switch (hari)
+        {
+            case 1:
+                System.Console.WriteLine("Senin");
+                break;
+            case 2:
+                System.Console.WriteLine("Selasa");
+                break;
+            case 3:
+                System.Console.WriteLine("Rabu");
+                break;
+            case 4:
+                System.Console.WriteLine("Kamis");
+                break;
+            case 5:
+                System.Console.WriteLine("Jum'at");
+                break;
+            case 6:
+                System.Console.WriteLine("Sabtu");
+                break;
+            case 7:
+                System.Console.WriteLine("Minggu");
+                break;
+            default:
+                System.Console.WriteLine("Invalid");
+                break;
+        }
     }
 }
