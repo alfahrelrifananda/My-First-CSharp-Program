@@ -85,5 +85,18 @@ public class Program
         x--; // x = x - 1
         System.Console.WriteLine(x);
         */
+
+        // ? Materi 3
+        // * Percabangan If, Else If, Else
+        int umur = 18;
+
+        if (umur >= 17)
+        {
+            System.Console.WriteLine("Anda boleh membuat KTP");
+        }
+        else
+        {
+            System.Console.WriteLine("Anda belum boleh membuat KTP");
+        }
     }
 }
