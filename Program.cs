@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 public class Program
 {
@@ -153,6 +154,7 @@ public class Program
         }
         */
 
+        /*
         System.Console.Write("Masukkan nama buah : ");
         string buah = System.Console.ReadLine().ToLower();
 
@@ -171,6 +173,53 @@ public class Program
             default:
                 System.Console.WriteLine("Invalid");
                 break;
+        }
+        */
+
+        // ? Materi 4
+        // * Perulangan
+        // * For
+        /*
+        for (int i = 1; i <= 33; i++)
+        {
+            System.Console.WriteLine($"Perulangan ke {i}");
+        }
+        */
+
+        // * While
+        /*
+        int j = 1;
+        while (j <= 33)
+        {
+            System.Console.WriteLine($"Perulangan ke {j}");
+            j++;
+        }
+        */
+
+        // * Do While
+        /*
+        int k = 1;
+        do
+        {
+            System.Console.WriteLine($"Perulangan ke {k}");
+            k++;
+        } while (k <= 33);
+        */
+
+        // * Break dan Continue
+        for (int i = 1; i <= 33; i++)
+        {
+            if (i == 13)
+            {
+                // Skip
+                continue;
+            }
+            if (i == 15)
+            {
+                // Berhenti
+                break;
+            }
+            System.Console.WriteLine($"Perulangan ke {i}");
         }
     }
 }
