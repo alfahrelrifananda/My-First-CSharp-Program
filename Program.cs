@@ -203,10 +203,11 @@ public class Program
         {
             System.Console.WriteLine($"Perulangan ke {k}");
             k++;
-        } while (k <= 33);
+#        } while (k <= 33);
         */
 
         // * Break dan Continue
+        /*
         for (int i = 1; i <= 33; i++)
         {
             if (i == 13)
@@ -221,5 +222,65 @@ public class Program
             }
             System.Console.WriteLine($"Perulangan ke {i}");
         }
+        */
+
+        // ? Materi Pertemuan 7 - Prosedur dan Fungsi
+        // * Prosedur tanpa Parameter
+        /*
+        Halo();
+        Halo();
+        Halo();
+        */
+        // * Prosedur dengan Parameter
+        /*
+        Sapa("Fahrel");
+        Sapa("Indra");
+        Sapa("Abi");
+        Sapa("Rizky");
+        */
+        //  * Fungsi dengan parameter integer
+        /*
+        KelipatanDua(5);
+        KelipatanTiga(5);
+        */
+
+        // * Double Parameter
+
+        int panjang;
+        int lebar;
+
+        System.Console.Write("Masukkan Panjang : ");
+        panjang = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.Write("Masukkan Lebar : ");
+        lebar = Convert.ToInt32(Console.ReadLine());
+
+        LuasPersegiPanjang(panjang, lebar);
+    }
+
+    public static void Halo()
+    {
+        System.Console.WriteLine("Halo Semua");
+    }
+
+    public static void Sapa(String nama)
+    {
+        System.Console.WriteLine("Halo " + nama);
+    }
+
+    public static void KelipatanDua(int angka)
+    {
+        System.Console.WriteLine("Kelipatan dua dari " + angka + " adalah " + (angka * 2));
+    }
+
+    public static void KelipatanTiga(int angka)
+    {
+        System.Console.WriteLine("Kelipatan tiga dari " + angka + " adalah " + (angka * 3));
+    }
+
+    public static void LuasPersegiPanjang(int panjang, int lebar)
+    {
+        int luas = panjang * lebar;
+        System.Console.WriteLine("Luas Persegi Panjang adalah " + luas);
     }
 }
