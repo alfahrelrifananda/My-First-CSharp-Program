@@ -263,7 +263,12 @@ public class Program
         // Prosedur tidak mereturn nilai (void)
         System.Console.WriteLine($"Hasil tambah : {tambah(5, 10)}");
         System.Console.WriteLine($"Hasil Angka Random : {angkaRandom()}");
-        System.Console.WriteLine($"Hasil Luas Segitiga : {luasSegitiga(5, 10)}");
+        System.Console.Write("Masukkan alas : ");
+        double alas = Convert.ToDouble(Console.ReadLine());
+        System.Console.Write("Masukkan tinggi : ");
+        double tinggi = Convert.ToDouble(Console.ReadLine());
+
+        System.Console.WriteLine($"Hasil Luas Segitiga : {luasSegitiga(alas, tinggi)}");
     }
 
     static double luasSegitiga(double alas, double tinggi)
