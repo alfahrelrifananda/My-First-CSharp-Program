@@ -267,8 +267,18 @@ public class Program
         double alas = Convert.ToDouble(Console.ReadLine());
         System.Console.Write("Masukkan tinggi : ");
         double tinggi = Convert.ToDouble(Console.ReadLine());
-
         System.Console.WriteLine($"Hasil Luas Segitiga : {luasSegitiga(alas, tinggi)}");
+        System.Console.WriteLine($"Hasil Luas Persegi : {hasilLuasPersegi(alas, tinggi)}");
+    }
+
+    static double hasilLuasPersegi(double a, double b)
+    {
+        return luasPersegi(a, b);
+    }
+
+    static double luasPersegi(double a, double b)
+    {
+        return a * b;
     }
 
     static double luasSegitiga(double alas, double tinggi)
