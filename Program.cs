@@ -245,7 +245,7 @@ public class Program
         */
 
         // * Double Parameter
-
+        /*
         int panjang;
         int lebar;
 
@@ -256,6 +256,30 @@ public class Program
         lebar = Convert.ToInt32(Console.ReadLine());
 
         LuasPersegiPanjang(panjang, lebar);
+        */
+
+        // ? Materi 7 : Fungsi
+        // Fungsi mereturn nilai dengan tipe data
+        // Prosedur tidak mereturn nilai (void)
+        System.Console.WriteLine($"Hasil tambah : {tambah(5, 10)}");
+        System.Console.WriteLine($"Hasil Angka Random : {angkaRandom()}");
+        System.Console.WriteLine($"Hasil Luas Segitiga : {luasSegitiga(5, 10)}");
+    }
+
+    static double luasSegitiga(double alas, double tinggi)
+    {
+        return 0.5 * alas * tinggi;
+    }
+
+    static int angkaRandom()
+    {
+        Random rand = new Random();
+        return rand.Next(1, 101);
+    }
+
+    static int tambah(int a, int b)
+    {
+        return a + b;
     }
 
     public static void Halo()
