@@ -275,33 +275,35 @@ public class Program
 
         // ? Materi 8
         // * Array
-
-        int[] angka = { 1, 2, 3, 4, 5 };
+        /*
         int[] nilai = new int[5];
 
-
-        System.Console.WriteLine("Masukkan Nilai :");
-        nilai[0] = Convert.ToInt32(Console.ReadLine());
-
-        System.Console.WriteLine("Masukkan Nilai : ");
-        nilai[1] = Convert.ToInt32(Console.ReadLine());
-
-        System.Console.WriteLine("Masukkan Nilai : ");
-        nilai[2] = Convert.ToInt32(Console.ReadLine());
-
-        System.Console.WriteLine("Masukkan Nilai : ");
-        nilai[3] = Convert.ToInt32(Console.ReadLine());
-
-        System.Console.WriteLine("Masukkan Nilai : ");
-        nilai[4] = Convert.ToInt32(Console.ReadLine());
-        
+        for (int i = 0; i < nilai.Length; i++)
+        {
+            System.Console.WriteLine("Masukkan Nilai : ");
+            nilai[i] = Convert.ToInt32(Console.ReadLine());
+        }
         for (int i = 0; i < nilai.Length; i++)
         {
             System.Console.Write(nilai[i] + " ");
         }
+        */
+
+        // * 2D Array
+        int[,] nilai2d = { { 1, 2, 3 },
+                           { 4, 5, 6 },
+                           { 7, 8, 9 } };
+                           
+        for (int i = 0; i < nilai2d.GetLength(0); i++)
+        {
+            for (int j = 0; j < nilai2d.GetLength(1); j++)
+            {
+                System.Console.Write(nilai2d[i, j] + " ");
+            }
+            System.Console.WriteLine();
+        }
+        
     }
-    
-    
 
     static double hasilLuasPersegi(double a, double b)
     {
