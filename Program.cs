@@ -261,6 +261,7 @@ public class Program
         // ? Materi 7 : Fungsi
         // Fungsi mereturn nilai dengan tipe data
         // Prosedur tidak mereturn nilai (void)
+        /*
         System.Console.WriteLine($"Hasil tambah : {tambah(5, 10)}");
         System.Console.WriteLine($"Hasil Angka Random : {angkaRandom()}");
         System.Console.Write("Masukkan alas : ");
@@ -269,7 +270,38 @@ public class Program
         double tinggi = Convert.ToDouble(Console.ReadLine());
         System.Console.WriteLine($"Hasil Luas Segitiga : {luasSegitiga(alas, tinggi)}");
         System.Console.WriteLine($"Hasil Luas Persegi : {hasilLuasPersegi(alas, tinggi)}");
+        
+        */
+
+        // ? Materi 8
+        // * Array
+
+        int[] angka = { 1, 2, 3, 4, 5 };
+        int[] nilai = new int[5];
+
+
+        System.Console.WriteLine("Masukkan Nilai :");
+        nilai[0] = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.WriteLine("Masukkan Nilai : ");
+        nilai[1] = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.WriteLine("Masukkan Nilai : ");
+        nilai[2] = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.WriteLine("Masukkan Nilai : ");
+        nilai[3] = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.WriteLine("Masukkan Nilai : ");
+        nilai[4] = Convert.ToInt32(Console.ReadLine());
+        
+        for (int i = 0; i < nilai.Length; i++)
+        {
+            System.Console.Write(nilai[i] + " ");
+        }
     }
+    
+    
 
     static double hasilLuasPersegi(double a, double b)
     {
