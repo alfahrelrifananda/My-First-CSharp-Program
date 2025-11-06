@@ -325,23 +325,23 @@ public class Program
         }
         */
 
-        int[,] nilai = new int[2, 3];
+        int[,] nilai = new int[3, 4];
         int panjangBaris = nilai.GetLength(0);
         int panjangKolom = nilai.GetLength(1);
 
         for (int i = 0; i < panjangBaris; i++)
         {
-            for (int j = 0; j < panjangKolom; j++)
+            for (int j = 0; j < panjangKolom; j++) 
             {
                 System.Console.Write("Masukkan Nilai "  + i + "," + j + " : ");
                 nilai[i, j] = Convert.ToInt32(Console.ReadLine());
             }
         }
 
-        System.Console.WriteLine("Hasil input : ");
-        for (int i = 0; i < nilai.GetLength(0); i++)
+        System.Console.WriteLine("\nHasil input : ");
+        for (int i = 0; i < panjangBaris; i++)
         {
-            for (int j = 0; j < nilai.GetLength(1); j++)
+            for (int j = 0; j < panjangKolom; j++)
             {
                 System.Console.Write(nilai[i, j] + " ");
             }
