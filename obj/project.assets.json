@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/home/rel/.nuget/packages/": {}
+    "/home/bom/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rel/personal/development/CSHARP/WebApplication/WebApplication.csproj",
+      "projectUniqueName": "/home/bom/personal/development/CSHARP/WebApplication/WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "/home/rel/personal/development/CSHARP/WebApplication/WebApplication.csproj",
-      "packagesPath": "/home/rel/.nuget/packages/",
-      "outputPath": "/home/rel/personal/development/CSHARP/WebApplication/obj/",
+      "projectPath": "/home/bom/personal/development/CSHARP/WebApplication/WebApplication.csproj",
+      "packagesPath": "/home/bom/.nuget/packages/",
+      "outputPath": "/home/bom/personal/development/CSHARP/WebApplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/rel/.nuget/NuGet/NuGet.Config"
+        "/home/bom/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/opt/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/bom/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

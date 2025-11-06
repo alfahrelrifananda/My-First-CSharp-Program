@@ -290,6 +290,7 @@ public class Program
         */
 
         // * 2D Array
+        /*
         int[,] nilai2d = { { 1, 2, 3 },
                            { 4, 5, 6 },
                            { 7, 8, 9 } };
@@ -302,8 +303,15 @@ public class Program
             }
             System.Console.WriteLine();
         }
-        
-    }
+        */
+
+        int[,] matrix = { { 1, 2, 3 },
+                          { 4, 5, 6 },
+                          { 7, 8, 9 } };
+                          
+        System.Console.WriteLine(matrix[1, 2]);
+        System.Console.WriteLine(matrix[0, 0]);
+   }
 
     static double hasilLuasPersegi(double a, double b)
     {
