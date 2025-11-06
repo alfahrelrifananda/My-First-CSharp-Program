@@ -308,10 +308,62 @@ public class Program
         int[,] matrix = { { 1, 2, 3 },
                           { 4, 5, 6 },
                           { 7, 8, 9 } };
+
+        // Kolom   : 0 1 2
+        // Baris 0 = 1 2 3
+        // Baris 1 = 4 5 6
+        // Baris 2 = 7 8 9
+
+        /*
+        for (int i = 0; i < matrix.GetLength(0); i++)
+        {
+            for (int j = 0; j < matrix.GetLength(1); j++)
+            {
+                System.Console.Write(matrix[i, j] + " ");
+            }
+            System.Console.WriteLine();
+        }
+        */
+
+        int[,] nilai = new int[2, 3];
+        int panjangBaris = nilai.GetLength(0);
+        int panjangKolom = nilai.GetLength(1);
+
+        for (int i = 0; i < panjangBaris; i++)
+        {
+            for (int j = 0; j < panjangKolom; j++)
+            {
+                System.Console.Write("Masukkan Nilai "  + i + "," + j + " : ");
+                nilai[i, j] = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+
+        System.Console.WriteLine("Hasil input : ");
+        for (int i = 0; i < nilai.GetLength(0); i++)
+        {
+            for (int j = 0; j < nilai.GetLength(1); j++)
+            {
+                System.Console.Write(nilai[i, j] + " ");
+            }
+            System.Console.WriteLine();
+        }
                           
-        System.Console.WriteLine(matrix[1, 2]);
-        System.Console.WriteLine(matrix[0, 0]);
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     static double hasilLuasPersegi(double a, double b)
     {
