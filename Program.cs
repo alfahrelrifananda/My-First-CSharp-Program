@@ -348,7 +348,7 @@ public class Program
         }
         
         */
-
+        /*
         int[,] matriksA = { { 1, 2 },
                             { 3, 4 } };
 
@@ -374,8 +374,31 @@ public class Program
             }
             System.Console.WriteLine();
         }
-                          
-   }
+        */
+        
+        // ? Materi 8
+        // * List
+        List<int> angka = new List<int>();
+        List<String> nama = new List<string>();
+        
+        angka.Add(1);
+        angka.Add(2);
+        angka.Add(3);
+
+        nama.Add("Bob");
+        nama.Add("Ali");
+
+        foreach (var i in angka)
+        {
+            System.Console.WriteLine(i);
+        }        
+        
+        
+        foreach (var i in nama)
+        {
+            System.Console.WriteLine(i);
+        }
+    }
 
 
 
@@ -388,10 +411,7 @@ public class Program
 
 
 
-
-
-
-
+    /*
     static double hasilLuasPersegi(double a, double b)
     {
         return luasPersegi(a, b);
@@ -442,5 +462,11 @@ public class Program
     {
         int luas = panjang * lebar;
         System.Console.WriteLine("Luas Persegi Panjang adalah " + luas);
+
     }
+    */
+
+
+    
+    
 }
