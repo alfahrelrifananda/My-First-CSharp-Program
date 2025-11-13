@@ -436,9 +436,9 @@ public class Program
         kodeSiswa.Add(103, "Charlie");
 
         System.Console.WriteLine("Daftar Siswa : ");
-        foreach (KeyValuePair<int, string> pair in kodeSiswa)
+        foreach (KeyValuePair<int, string> doesntmatter in kodeSiswa)
         {
-            System.Console.WriteLine("Kode: " + pair.Key + ", Nama: " + pair.Value);
+            System.Console.WriteLine("Kode: " + doesntmatter.Key + ", Nama: " + doesntmatter.Value);
         }
 
         kodeSiswa.Remove(101);
