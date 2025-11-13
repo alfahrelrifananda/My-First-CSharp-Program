@@ -375,9 +375,10 @@ public class Program
             System.Console.WriteLine();
         }
         */
-        
+
         // ? Materi 8
         // * List
+        /*
         List<int> angka = new List<int>();
         List<String> nama = new List<string>();
         List<int> bilangan = new List<int>();
@@ -422,6 +423,32 @@ public class Program
         foreach (var i in nama)
         {
             System.Console.WriteLine(i);
+        }
+
+        nama.Clear(); // Menghapus keseluruhan
+        */
+
+        // * Dictionry
+        Dictionary<int, String> kodeSiswa = new Dictionary<int, string>();
+
+        kodeSiswa.Add(101, "Alice");
+        kodeSiswa.Add(102, "Bob");
+        kodeSiswa.Add(103, "Charlie");
+
+        System.Console.WriteLine("Daftar Siswa : ");
+        foreach (KeyValuePair<int, string> pair in kodeSiswa)
+        {
+            System.Console.WriteLine("Kode: " + pair.Key + ", Nama: " + pair.Value);
+        }
+
+        kodeSiswa.Remove(101);
+
+        System.Console.WriteLine("\nSetelah menhapus kode 101 : ");
+        
+        foreach (KeyValuePair<int, string> pair in kodeSiswa)
+        {
+            System.Console.WriteLine("Kode: " + pair.Key + ", Nama: " + pair.Value);
+            
         }
     }
 
