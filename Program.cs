@@ -323,11 +323,10 @@ public class Program
             }
             System.Console.WriteLine();
         }
-        */
 
-        int[,] nilai = new int[3, 4];
-        int panjangBaris = nilai.GetLength(0);
-        int panjangKolom = nilai.GetLength(1);
+        int[,] nilai = new int[3, 3];
+        int panjangBaris = nilai.GetLength(0); // Dimensi pertama
+        int panjangKolom = nilai.GetLength(1); // Dimensi kedua
 
         for (int i = 0; i < panjangBaris; i++)
         {
@@ -343,7 +342,35 @@ public class Program
         {
             for (int j = 0; j < panjangKolom; j++)
             {
-                System.Console.Write(nilai[i, j] + " ");
+                System.Console.Write(nilai[i, j] + " \t");
+            }
+            System.Console.WriteLine();
+        }
+        
+        */
+
+        int[,] matriksA = { { 1, 2 },
+                            { 3, 4 } };
+
+        int[,] matriksB = { { 5, 6 },
+                            { 7, 8 } };
+
+        int[,] matriksC = new int[2, 2];
+
+        for (int i = 0; i < 2; i++)
+        {
+            for (int j = 0; j < 2; j++)
+            {
+                matriksC[i, j] = matriksA[i, j] + matriksB[i, j];
+            }
+        }
+
+        System.Console.WriteLine("\nHasil matriks C : ");
+        for (int i = 0; i < 2; i++)
+        {
+            for (int j = 0; j < 2; j++)
+            {
+                System.Console.Write(matriksC[i, j] + " ");
             }
             System.Console.WriteLine();
         }
