@@ -380,6 +380,22 @@ public class Program
         // * List
         List<int> angka = new List<int>();
         List<String> nama = new List<string>();
+        List<int> bilangan = new List<int>();
+        int panjang = 0;
+
+        System.Console.Write("Masukkan jumlah bilangan : ");
+        panjang = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < panjang; i++)
+        {
+            System.Console.Write("Masukkan bilangan " + (i + 1) + " : ");
+            bilangan.Add(Convert.ToInt32(Console.ReadLine()));
+        }
+        
+        foreach (var i in bilangan)
+        {
+            System.Console.WriteLine(i);
+        }
         
         angka.Add(1);
         angka.Add(2);
@@ -388,11 +404,20 @@ public class Program
         nama.Add("Bob");
         nama.Add("Ali");
 
+        System.Console.WriteLine(nama.Count);
+
+        angka.Remove(3); // Value
+        angka.RemoveAt(0); // Index
+        
+        if (nama.Contains("Bob"))
+        {
+            System.Console.WriteLine("Bob ada di list");
+        }
+
         foreach (var i in angka)
         {
             System.Console.WriteLine(i);
         }        
-        
         
         foreach (var i in nama)
         {
